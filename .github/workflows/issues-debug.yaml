@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name Output issue event details
+      - name: Output issue event details
         run:
           echo "Event name: ${{ github.event_name }}"
           echo "Action: ${{ github.event.action }}"
