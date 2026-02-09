@@ -1,9 +1,6 @@
 name: Lint, Test and Deploy
-
 on:
   push:
-    branches: [main]
-
 jobs:
   ci:
     runs-on: ubuntu-latest
